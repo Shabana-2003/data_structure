@@ -1,19 +1,17 @@
-class Node<T>{
- T data;
- Node<T>? next;
- Node(this.data);
+void main(){
+  B obj =B();
+  obj.aa(); 
+  a.vari;
+  a.aa();
 }
-class LinkedListStack<T>{
-  Node<T>? _top;
-
-  void push(T item){  
-  Node<T> newNode=Node<T>(item);
-  newNode.next=_top;
-  _top=newNode;
+class a{
+static int vari=10;
+ static void aa(){
+ print("vv");
   }
 }
-
-void main(){
-  LinkedListStack<int> stack=LinkedListStack<int>();
-  
+class B extends a{
+  void aa(){
+    print("ssssssssss");
+  }
 }

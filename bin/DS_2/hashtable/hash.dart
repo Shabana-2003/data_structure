@@ -17,7 +17,6 @@ class HashTable<K, V> {
 
 void main() {
   HashTable<String,int> myHashTable = HashTable<String,int>();
-
   myHashTable.put("one", 5);
   myHashTable.put("two", 2);
   myHashTable.put("three", 3);
